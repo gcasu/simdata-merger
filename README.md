@@ -9,8 +9,8 @@ The tool aims to speed up the process of updating the huge simdata.simjson file,
 1. Extract simdata.simjson file from the game assets with CryBarEditor. The file is located in the data/Data.bar archive. Once extracted, the expected file path will be {YOUR_AOM_RETOLD_PATH}/{YOUR_STEAM_ID}/mods/local/{YOUR_MOD_NAME}/game/data/gameplay
 2. Rename the file to simdata.json
 3. Copy the following files in the same folder of simdata.json: simmods.json, simdata_merger.py, requirements.txt
-4. Open a command prompt and install the script requirements with the following command "pip install -r requirements.txt --user"
-5. Run the script with the following command: python simdata_merger.py
+4. Open a command prompt and install the script requirements with the following command `pip install -r requirements.txt --user`
+5. Run the script with the following command `python simdata_merger.py`
 
 ## Usage
 - As long as the script is running, it will detect changes made to the simmods.json file and merge them with the simdata.json file into a new simdata.simjson file
