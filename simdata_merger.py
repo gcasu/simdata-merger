@@ -86,7 +86,7 @@ class JsonFileHandler(FileSystemEventHandler):
 
             # Write merged data to a new JSON file
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                json.dump(merged_data, f, indent=4)
+                json.dump(merged_data, f, separators=(',', ':'))
             print(f"[SUCCESS] Merged JSON written to {OUTPUT_FILE}")
 
         except json.JSONDecodeError:
