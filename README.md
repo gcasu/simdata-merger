@@ -1,5 +1,5 @@
 # simdata-merger
-The tool aims to speed up the process of updating the huge simdata.simjson file, simply by merging the original file with a lighter, more readable diff file.
+The tool aims to speed up the process of modding the infamous simdata.simjson file, simply by merging the original file with a lighter, more readable diff file.
 
 ## Requirements
 - To run the script you need a Python Interpreter installed on your computer: https://www.python.org/downloads
