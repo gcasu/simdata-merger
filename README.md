@@ -13,11 +13,11 @@ The tool aims to speed up the process of updating the huge simdata.simjson file,
 5. Run the script with the following command `python simdata_merger.py`
 
 ## Usage
-- As long as the script is running, it will detect changes made to the simmods.json file and merge them with the simdata.json file into a new simdata.simjson file
-- You can use simdata.json as a readonly source, and simmods.json as an additive file for your modded entries. The script will then do the magic by creating a fresh simdata.simjson file each time you modify the diff file
+- As long as the script is running, it will detect changes made to the simmods.json file and merge them with the simdata.json file into a new simdata.simjson file.
+- You can use simdata.json as a readonly source, and simmods.json as an additive file for your modded entries. The script will then do the magic by creating a fresh simdata.simjson file each time you modify the diff file.
 
 ## Warnings
-- If you had already modified simdata.simjson file before, please be sure to backup you changes into simmods.json before running the script, otherwise they will be overwritten
-- In case a new AoM: Retold patch is released, you will probably need to extract again simdata.simjson from the game assets and rename it to simdata.json
+- If you had already modified simdata.simjson file before, please be sure to backup you changes into simmods.json before running the script, otherwise they will be overwritten.
+- In case a new AoM: Retold patch is released, you will probably need to extract again simdata.simjson from the game assets and rename it to simdata.json.
 
 Enjoy!
